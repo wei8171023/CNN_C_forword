@@ -1,0 +1,30 @@
+﻿生成启动时间为 2020/4/5 22:55:12。
+     1>项目“D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\CNN\CNN.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt cnn.cpp main.cpp minst.cpp
+         minst.cpp
+     1>minst.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>minst.cpp(54): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>minst.cpp(58): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>minst.cpp(73): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>minst.cpp(83): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>minst.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>minst.cpp(108): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>minst.cpp(185): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         main.cpp
+     1>main.cpp(154): warning C4101: “d”: 未引用的局部变量
+         cnn.cpp
+         正在生成代码...
+       Link:
+         D:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\x64\Debug\CNN.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\x64\Debug\CNN.pdb" /HEAP:"2097152" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\x64\Debug\CNN.lib" /MACHINE:X64 x64\Debug\cnn.obj
+         x64\Debug\main.obj
+         x64\Debug\minst.obj
+         CNN.vcxproj -> D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\x64\Debug\CNN.exe
+     1>已完成生成项目“D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\CNN\CNN.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.98

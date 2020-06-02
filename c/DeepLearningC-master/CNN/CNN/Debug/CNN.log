@@ -1,0 +1,16 @@
+﻿生成启动时间为 2020/4/5 22:54:07。
+     1>项目“D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\CNN\CNN.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\fpga-ai\lenet_mnist\deeplearningc-master\cnn\cnn\main.cpp(154): warning C4101: “d”: 未引用的局部变量
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\Debug\CNN.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\Debug\CNN.pdb" /HEAP:"2000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\Debug\CNN.lib" /MACHINE:X86 Debug\cnn.obj
+         Debug\main.obj
+         Debug\minst.obj
+         CNN.vcxproj -> D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\Debug\CNN.exe
+     1>已完成生成项目“D:\FPGA-AI\Lenet_MNIST\DeepLearningC-master\CNN\CNN\CNN.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.23
